@@ -1,3 +1,7 @@
 SPOJ problem - WATER: Water Among Cubes
 www.spoj.pl/problems/WATER/
-Came up with an algo. Started coding it. Turned out to be wrong. Turns out to be quite a difficult problem. Not been able to think of a viable algo yet. 
+Came up with an algo. Started coding it. Turned out to be wrong. Turns out to be quite a difficult problem. Not been able to think of a viable algo yet.
+
+Codechef NOV11 Challenge Problem - HAREJUMP: Chef's New Pet
+http://www.codechef.com/problems/HAREJUMP
+Almost copied the entire solution given in the tutorial (learnt a bit of C++ in the process). The concept of solving linear recurrences using matrix exponentiation introduced. Initially encountered some WAs, found some small mistakes, and finally got AC.a
