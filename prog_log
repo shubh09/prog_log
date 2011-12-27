@@ -4,4 +4,9 @@ Came up with an algo. Started coding it. Turned out to be wrong. Turns out to be
 
 Codechef NOV11 Challenge Problem - HAREJUMP: Chef's New Pet
 http://www.codechef.com/problems/HAREJUMP
-Almost copied the entire solution given in the tutorial (learnt a bit of C++ in the process). The concept of solving linear recurrences using matrix exponentiation introduced. Initially encountered some WAs, found some small mistakes, and finally got AC.a
+Almost copied the entire solution given in the tutorial (learnt a bit of C++ in the process). The concept of solving linear recurrences using matrix exponentiation introduced. Initially encountered some WAs, found some small mistakes, and finally got AC.
+
+Codechef DEC11 CookOff Problem - CIELQUIZ: Ciel and Quiz Game
+http://www.codechef.com/problems/CIELQUIZ/
+A subtle observation required to arrive at the solution. My original DP solution turned out to be wrong (to be remembered whenever solving problems using DP in the future). Got a lot of WAs even after the knowledge of the model solution. To find the probability that exactly (k-1) problems are solved out of the k chosen problems, I first determined the product of probabilities associated with each of the problem. This doesn't work out if at least one of the chosen problems has a prob of 0 associated with it.
+If only 1 of the chosen problems has probability 0 of being solved, the required total prob is simply the product of the remaining probabilities. If, however, more than 1 of the chosen problems have prob 0 of being solved, the reqd total prob is 0.
